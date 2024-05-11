@@ -1,0 +1,54 @@
+#premier{
+ font-weight: bold;
+ background-color: rgba(134, 342, 244, 1);
+ text-indent: 50px;
+font-size: 4vh;
+
+}
+body{
+    font-family: cursive;
+    
+}
+#wer{
+    border-radius: 50%;
+}
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color: aliceblue;
+}
+li{
+    display: inline;
+    margin: 15px;
+}
+  h1{
+    animation-duration: 5s;
+    animation-name: yo ;
+  }
+  header{
+    background-color: darkgray;
+  }
+
+  @media screen  and (max-width: 680px){ 
+    li{ display: list-item;}
+  }
+  @media screen  and (max-width: 920px){ 
+    li{ display: list-item;}
+  }
+  #tfoot{
+  color: #fff;
+  text-align: center;
+  padding-top: 80px; }
+  .bouton{
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 30px 5px;
+    cursor: pointer;
+  }
